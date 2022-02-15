@@ -1,0 +1,28 @@
+/* Page as a whole */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Right Styling */
+.right {
+  margin-top: 100px;
+  flex: 6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #3d6d5f;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Left styling */
+.left {
+  display: flex;
+  background-color: #ffb612;
+  flex: 2;
+  flex-direction: column;
+}
