@@ -1,0 +1,9 @@
+.column {
+	float: right;
+	width: 33.33%;
+	padding:0px;
+	height:400px;
+}
+
+h2 {text-align: center;}
+h1 {text-align: center;}
