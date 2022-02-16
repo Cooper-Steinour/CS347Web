@@ -5,5 +5,12 @@
 	height:400px;
 }
 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h3 {text-align: center;}
 h2 {text-align: center;}
 h1 {text-align: center;}
