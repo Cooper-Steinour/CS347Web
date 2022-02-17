@@ -1,0 +1,15 @@
+SELECT m.id AS movie_id, title, year, kind
+FROM movie as m
+	JOIN kind_type AS k ON m.kind_id = k.id
+WHERE title = 'Frozen'
+LIMIT 100
+
+
+SELECT m.id AS movie_id, title, year, kind, INFO, note
+FROM movie as m
+	JOIN kind_type AS k ON m.kind_id = k.id
+	JOIN movie_info AS p ON m.id = p.movie_id AND p.info_id = 98
+WHERE title = 'Frozen'
+	AND kind = 'movie'
+	AND year = 2013
+LIMIT 100
