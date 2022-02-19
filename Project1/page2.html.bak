@@ -6,14 +6,17 @@
 		<title>Aaron's intro</title>
 	</head>
 	<body>
+		<! --- Start of Aaron's stats --- >
 		<h1> RODGER'S AMAZING STATS </h1>
 		<div class="row">
+			
+			<! --- This column is for Aaron's physical stats --- >
 			<div class="column" style="background-color:#aaa;">
 				<h2>Physical stats</h2>
 				<h3>Height: 6'3</h3>
 				<h3>Weight: 225 pounds</h3>
 				<h3>Build: Fit</h3>
-				<a href="https://terezowens.s3.amazonaws.com/cloud_uploads/2016/08/36FA640000000578-3728838-image-m-80_1470633730946-613x634.jpg"><img src="images/beach.jpg" alt="Shirtless Aaron on the beach"></a>
+				<a href="https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_3:4,f_auto,q_auto,g_auto/shape/cover/sport/dataimagejpegbase649j4AAQSkZJRgABAQAAAQABAAD2wBDAA-563ed2bc6cdea1b5d41732ed53f6a4f8.jpg"><img src="images/standing.jpg" alt="Aaron standing"></a>
 
 				<h3>Shoe size: 14</h3>
 				<h3>Attractiveness: 10/10</h3>
@@ -22,12 +25,16 @@
 				</a>
 				<p>...</p>
 			</div>
+			
+			<! --- This column is for Aaron's accomplishments with videos --- >
 			<div class="column" style="background-color:#bbb;">
 				<h2>Accomplishments</h2>
 				<h3>These are some of Aaron's best runs</h3>
 				<iframe src="https://www.youtube.com/embed?v=tpNhsDB1jYQ&ab_channel=Jaydon"></iframe>
 				<p></p>
 			</div>
+			
+			<! --- This column is for Aaron's accomplishments with pictures --- >
 			<div class="column" style="background-color:#ccc;">
 				<h2>Personal life</h2>
 				<h3>Born: Chico, California, December 2, 1983</h3>
@@ -38,6 +45,8 @@
 				<h3>Partner: Shailene Woodly</h3>
 				<a href="https://www.theknot.com/tk-media/images/4474d6c9-413f-473a-a474-5e4bc37936b4~rs_768.h"><img src="images/aaronshailene.jpg" alt="Aaron and Shailene photo"></a>
 			</div>
+			
+			<! --- This column is the menu that is used for navigating around the website --- >
 			<div class="column" style="background-color:lightblack">
 				<h2>Menu</h2>
 				<a href="https://en.wikipedia.org/wiki/Aaron_Rodgers"><button>Click here to learn more about Aaron on Wiki</button></a> 
