@@ -6,7 +6,7 @@
 
 /* Right Styling */
 .right {
-  margin-top: 100px;
+  margin-top: 10px;
   flex: 6;
   display: flex;
   align-items: center;
@@ -25,5 +25,10 @@
   background-color: #ffb612;
   flex: 2;
   flex-direction: column;
+  text-align: center;
+  
 }
 
+img:hover {
+	opacity: 0.5;
+}	

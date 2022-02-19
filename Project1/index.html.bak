@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <title>Project 1</title>
+  </head>
+  <body>
+    <!-- Top Parent Container + Testing! -->
+    <div class="container">
+      <!-- Left Container -->
+      <div class="left">
+        <h1 class="center">Aaron Rodger's fan page</h1>
+		<h4>By Alex Tran and Cooper Steinour</h4>
+		<p> Aaron Rodgers is so amazing and he needs to stay in Lambeau because </p>
+		
+		<h2>Menu</h2>
+			<a href="https://en.wikipedia.org/wiki/Aaron_Rodgers">Click here to learn more about Aaron on Wiki</a> 
+			<br>
+			<a href="index.html">Click for Main Page: Rodgers's intro</a>
+			
+			<h4>Second page: You are here!</a>
+			<br>
+			<br>
+			<a href="index.html">Click for Third page</a>
+			<br>
+			<br>
+			<a href="index.html">Click for First page</a>
+			<br>
+			<br>
+			<a href="index.html">Click for First page</a>
+			<br>
+			<br>
+		<h2>Leave a message for our Aaron Rodgers <3</h2>
+		
+		<form>
+			<label for='fName'>First Name</label><br>
+			<input type="text" id="fName" name="fName"><br>
+			<label for='lName'>Last Name</label><br>
+			<input type="text" id="lName" name="lName"><br>
+			<label for='email'>Email:</label><br>
+			<input type='text' id="email" name="email"><br>
+		</form>
+      </div>
+      <!-- Right Container -->
+      <div class="right">
+        <h1>Please stay in Lambeau, Aaron Rodgers! xoxox</h1>
+		<a href="https://i.pinimg.com/originals/0d/75/67/0d7567445615ca89c1e449bed836db0d.gif"><img src="images/rodgersnice.gif" alt="Aaron thumbs up"></a>
+		<a href="https://media1.giphy.com/media/3o7TKFZa9JRN1Fb40o/200.gif"><img src="images/rodgerssunglasses.gif" alt="Aaron taking off his sunglasses"></a>
+		<a href="https://c.tenor.com/zmnzUYvT0DMAAAAC/aaron-rodgers.gif"><img src="images/rodgerslying.gif" alt="Aaron taking off his sunglasses"></a>
+      </div>
+    </div>
+  </body>
+</html>
