@@ -29,17 +29,7 @@
   
 }
 
+/* Changes opacity of images when you hover over them*/
 img:hover {
 	opacity: 0.5;
 }	
-
-img {
-	width:100%;
-    height:100%;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-.message {
-	width: 200px;
-}
