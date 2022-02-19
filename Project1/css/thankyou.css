@@ -1,4 +1,7 @@
-
+body {
+	background-image: url(https://wpr-public.s3.amazonaws.com/wprorg/styles/resp_orig_custom_user_wide_1x/s3/field/image/ap_andy_manis_-_lambeau_field.jpg?itok=SvXIGH09);
+	background-size: cover;
+}
 
 h1 {
 	
