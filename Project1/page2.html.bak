@@ -40,28 +40,23 @@
 		   <h3>Education: University of California, Berkeley</h3>
 		   <h3>Parents: Darla Rodgers and Edward Rodgers</h3>
 		   <h3>Partner: Shailene Woodly</h3>
-		   <a href="https://www.theknot.com/content/aaron-rodgers-wife"><img src="images/aaronshailene.jpg" alt="Aaron and Shailene photo"></a>
+		   <a href="https://www.theknot.com/tk-media/images/4474d6c9-413f-473a-a474-5e4bc37936b4~rs_768.h"><img src="images/aaronshailene.jpg" alt="Aaron and Shailene photo"></a>
 		   
 		</div>
 		
 		<div class="column" style="background-color:lightblack">   
 			<h2>Menu</h2>
-			<a href="https://en.wikipedia.org/wiki/Aaron_Rodgers">Click here to learn more about Aaron on Wiki</a> 
+			<a href="https://en.wikipedia.org/wiki/Aaron_Rodgers"><button>Click here to learn more about Aaron on Wiki</button></a> 
 			<br>
+			<a href="index.html"><button>Click for Main Page: Rodgers's intro</button></a>
 			<br>
-			<a href="index.html">Click for Main Page: Rodgers's intro</a>
+			<a href="page2.html"><button>Aaron's Stats</button></a>
 			<br>
-			<h4>Second page: You are here!</a>
+			<a href="index.html"><button>Click for Third page</button></a>
 			<br>
+			<a href="index.html"><button>Click for First page</button></a>
 			<br>
-			<a href="index.html">Click for Third page</a>
-			<br>
-			<br>
-			<a href="index.html">Click for First page</a>
-			<br>
-			<br>
-			<a href="index.html">Click for First page</a>
-			<br>
+			<a href="index.html"><button>Click for First page</button></a>
 			<br>
 		</div>
     </div>
