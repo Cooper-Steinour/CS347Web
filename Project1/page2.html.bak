@@ -1,4 +1,4 @@
-<! --- This is code for our second HTML page --- >
+<!--- This is code for our second HTML page --->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,11 +6,11 @@
 		<title>Aaron's intro</title>
 	</head>
 	<body>
-		<! --- Start of Aaron's stats --- >
+		<!--- Start of Aaron's stats --->
 		<h1> RODGER'S AMAZING STATS </h1>
 		<div class="row">
 			
-			<! --- This column is for Aaron's physical stats with pictures --- >
+			<!--- This column is for Aaron's physical stats with pictures --->
 			<div class="column" style="background-color:#aaa;">
 				<h2>Physical stats</h2>
 				<h3>Height: 6'3</h3>
@@ -26,7 +26,7 @@
 				<p>...</p>
 			</div>
 			
-			<! --- This column is for Aaron's accomplishments with videos --- >
+			<!--- This column is for Aaron's accomplishments with videos --->
 			<div class="column" style="background-color:#bbb;">
 				<h2>Accomplishments</h2>
 				<h3>These are some of Aaron's best runs</h3>
@@ -34,7 +34,7 @@
 				<p></p>
 			</div>
 			
-			<! --- This column is for Aaron's accomplishments with pictures --- >
+			<!--- This column is for Aaron's accomplishments with pictures --->
 			<div class="column" style="background-color:#ccc;">
 				<h2>Personal life</h2>
 				<h3>Born: Chico, California, December 2, 1983</h3>
@@ -46,26 +46,20 @@
 				<a href="https://www.theknot.com/tk-media/images/4474d6c9-413f-473a-a474-5e4bc37936b4~rs_768.h"><img src="images/aaronshailene.jpg" alt="Aaron and Shailene photo"></a>
 			</div>
 			
-			<! --- This column is the menu that is used for navigating around the website with a funny GIF :) --- >
+			<!--- This column is the menu that is used for navigating around the website with a funny GIF :) --->
 			<div class="column" style="background-color:lightblack">
 				<h2>Menu</h2>
 				<a href="https://en.wikipedia.org/wiki/Aaron_Rodgers"><button>Click here to learn more about Aaron on Wiki</button></a> 
 				<br>
-				<br>
 				<a href="index.html"><button>Click for Main Page: Rodgers's intro</button></a>
 				<br>
+				<a href="page2.html"><button>Aaron's General Stats</button></a>
 				<br>
-				<a href="page2.html"><button>Aaron's Stats</button></a>
+				<a href="index.html"><button>Why Aaron should stay in Lambeau</button></a>
 				<br>
+				<a href="index.html"><button>Aaron's recent breakup. Please send love :(</button></a>
 				<br>
-				<a href="index.html"><button>Click for Third page</button></a>
-				<br>
-				<br>
-				<a href="index.html"><button>Click for First page</button></a>
-				<br>
-				<br>
-				<a href="index.html"><button>Click for First page</button></a>
-				<br>
+				<a href="thankyou.html"><button>We thank YOU for visiting our site and supporting Aaron :D <3</button></a>
 				<br>
 				<a href="https://c.tenor.com/hujoAcoBoPQAAAAj/sports-sportsmanias.gif"><img src="images/transparentaaron.gif" alt="Aaron cartoon gif"></a>
 			</div>

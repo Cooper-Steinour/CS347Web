@@ -13,7 +13,7 @@
 			<!--- This intro column contains an intro, a menu, and some text boxes for the user to input --->
             <h1 class="center">AARON RODGER'S FAN PAGE!!!</h1>
             <h4>By Alex Tran and Cooper Steinour</h4>
-            <p> This website is for fans of Aaron Rodgers as well as folks with know prior knowledge about Football or Aaron :)</p>
+            <p> This website is for fans of Aaron Rodgers as well as folks with 0 prior knowledge about Football or Aaron :)</p>
             <h2>Menu</h2>
             <a href="https://en.wikipedia.org/wiki/Aaron_Rodgers"><button>Click here to learn more about Aaron on Wiki</button></a> 
             <br>
@@ -43,7 +43,7 @@
          <!-- Right Container -->
          <div class="right">
 			<!--- We added some funny GIFs to get things started! --->
-            <h1>Please stay in Lambeau, Aaron Rodgers! xoxox</h1>
+            <h1 style="color: white;">Please stay in Lambeau, Aaron Rodgers! xoxox</h1>
             <a href="https://i.pinimg.com/originals/0d/75/67/0d7567445615ca89c1e449bed836db0d.gif"><img src="images/rodgersnice.gif" alt="Aaron thumbs up"></a>
             <a href="https://media1.giphy.com/media/3o7TKFZa9JRN1Fb40o/200.gif"><img src="images/rodgerssunglasses.gif" alt="Aaron taking off his sunglasses"></a>
             <a href="https://c.tenor.com/zmnzUYvT0DMAAAAC/aaron-rodgers.gif"><img src="images/rodgerslying.gif" alt="Aaron taking off his sunglasses"></a>
