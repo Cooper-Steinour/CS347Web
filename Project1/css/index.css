@@ -6,7 +6,6 @@
 
 /* Right Styling */
 .right {
-  margin-top: 10px;
   flex: 6;
   display: flex;
   align-items: center;
@@ -26,10 +25,9 @@
   flex: 2;
   flex-direction: column;
   text-align: center;
-  
 }
 
 /* Changes opacity of images when you hover over them*/
 img:hover {
-	opacity: 0.5;
-}	
+  opacity: 0.5;
+}
