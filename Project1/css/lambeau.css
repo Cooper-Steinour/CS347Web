@@ -1,0 +1,56 @@
+/*These are the properties for the 4 columns*/
+.column1 {
+  float: right;
+  width: 25%;
+  padding: 0px;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.column-medium {
+  float: right;
+  width: 50%;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+.column2 {
+  float: right;
+  width: 75%;
+  padding: 0px;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: yellow;
+}
+/*This makes the images smaller so that they could fit better*/
+.img-large {
+  width: 60%;
+}
+
+.img-long {
+  max-width: 40%;
+}
+
+/*This changes the opacity of the images when you hover over them*/
+img:hover {
+  opacity: 0.5;
+}
+
+/*This keeps the headers centered. The big ones are also in the font verdana*/
+h3 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: verdana;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}

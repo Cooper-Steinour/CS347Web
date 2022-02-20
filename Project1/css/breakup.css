@@ -20,14 +20,14 @@
   float: right;
   width: 75%;
   padding: 0px;
-  height: 170vh;
+  height: 100%;
   text-align: center;
   text-decoration: none;
   background-color: lightgreen;
 }
 /*This makes the images smaller so that they could fit better*/
 .img-large {
-  width: 50%;
+  width: 70%;
 }
 
 /*This changes the opacity of the images when you hover over them*/
@@ -45,4 +45,9 @@ h2 {
 h1 {
   text-align: center;
   font-family: verdana;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
 }
