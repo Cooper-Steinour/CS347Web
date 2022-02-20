@@ -20,14 +20,14 @@
   float: right;
   width: 75%;
   padding: 0px;
-  height: 180vh;
+  height: 170vh;
   text-align: center;
   text-decoration: none;
   background-color: lightgreen;
 }
 /*This makes the images smaller so that they could fit better*/
 .img-large {
-  width: 43%;
+  width: 50%;
 }
 
 /*This changes the opacity of the images when you hover over them*/
