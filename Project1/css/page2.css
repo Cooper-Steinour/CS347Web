@@ -1,25 +1,35 @@
 /*These are the properties for the 4 columns*/
 .column {
-	float: right;
-	width: 25%;
-	padding:0px;
-	height: 100vh;
-	text-align:center;
-	text-decoration: none;
+  float: right;
+  width: 25%;
+  padding: 0px;
+  height: 100vh;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*This makes the images smaller so that they could fit better*/
 img {
-	width: 50%;
+  width: 50%;
 }
 
 /*This changes the opacity of the images when you hover over them*/
 img:hover {
-	opacity: 0.5;
-}	
-
+  opacity: 0.5;
+}
 
 /*This keeps the headers centered. The big ones are also in the font verdana*/
-h3 {text-align: center;}
-h2 {text-align: center;}
-h1 {text-align: center; font-family: verdana;}
+h3 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: verdana;
+}
+
+button {
+  cursor: pointer;
+}

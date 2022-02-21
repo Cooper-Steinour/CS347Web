@@ -69,3 +69,7 @@ a {
 body {
   background-color: lightgreen;
 }
+
+button {
+  cursor: pointer;
+}
