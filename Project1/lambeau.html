@@ -106,10 +106,21 @@
         </button>
         <br />
         <br />
+		<button>Click to fade in/out Aaron GIF!!!</button><br><br>
+
         <a href="https://c.tenor.com/hujoAcoBoPQAAAAj/sports-sportsmanias.gif"
-          ><img src="images/transparentaaron.gif" alt="Aaron cartoon gif"
+          ><img id ="toggletest" src="images/transparentaaron.gif" alt="Aaron cartoon gif"
         /></a>
       </div>
     </div>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+   $(document).ready(function(){
+     $("button").click(function(){
+       $("#toggletest").fadeToggle();
+     });
+   });
+  </script>
+
 </html>
