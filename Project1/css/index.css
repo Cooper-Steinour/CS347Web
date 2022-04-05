@@ -34,4 +34,6 @@ img:hover {
 
 button {
   cursor: pointer;
+  
+  width: 100%;
 }

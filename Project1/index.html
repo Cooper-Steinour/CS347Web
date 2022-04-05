@@ -17,8 +17,14 @@
           This FULL STACK website is for fans of Aaron Rodgers as well as folks with 0
           prior knowledge about Football or Aaron :)
         </p>
-		<div id = "menudiv">
+
         <h2>Menu</h2>
+	
+		<button id="slide">Collapse/Expand Menu</button>
+		<br>
+		
+		<div id = "menudiv">
+
         <button id = "menu"
           onclick="location.href='https://en.wikipedia.org/wiki/Aaron_Rodgers'"
           type="button"
@@ -26,36 +32,40 @@
           Click here to learn more about Aaron on Wiki
         </button>
         <br />
-        <button id = "menu" onclick="location.href='index.html'" type="button">
+		<br />
+        <button onclick="location.href='index.html'" type="button">
           Click for Main Page: Rodgers's intro
         </button>
         <br />
+		<br />
         <button id = "menu" onclick="location.href='page2.html'" type="button">
           Aaron's General Stats
         </button>
         <br />
+		<br />
         <button id = "menu" onclick="location.href='lambeau.html'" type="button">
           Why Aaron should stay in Lambeau
         </button>
         <br />
+		<br />
         <button id = "menu" onclick="location.href='breakup.html'" type="button">
           Aaron's recent breakup. Please send love :(
         </button>
         <br />
+		<br />
         <button id = "menu" onclick="location.href='thankyou.html'" type="button">
           We thank YOU for visiting our site and supporting Aaron :D
         </button>
 		</div>
-		<button id = "slide">Collapse/Expand Menu</button>
 
         <br />
         <h2>Log in to become a recognized fan of Aaron!</h2>
         <form name = "myForm" action="confirmation.php" method="post" onsubmit="return validatePassword()">
-          <label for="fName">Username</label><br />
-          <input type="text" id="fName" name="fName" required><br />
-          <label for="email">Email:</label><br />
-          <input type="text" id="email" name="email" required><br />
-          <label for="pass">Password</label><br />
+          <label for="usernameid">Username</label><br />
+          <input type="text" id="usernameid" name="usernameid" required><br />
+          <label for="emailid">Email</label><br />
+          <input type="text" id="emailid" name="emailid" required><br />
+          <label for="passid">Password</label><br />
           <input type="text" id="pass" name="pass" required><br /><br />
 		  
           <input
@@ -90,8 +100,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script>
       $(document).ready(function(){
-        $("button").click(function(){
-        $("menudiv").slideToggle();
+	    $("#menudiv").hide();
+        $("#slide").click(function(){
+        $("#menudiv").slideToggle();
         });
       });
   </script>
