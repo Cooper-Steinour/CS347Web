@@ -32,6 +32,10 @@ img:hover {
   opacity: 0.5;
 }
 
+img {
+	display: flex;
+}
+
 button {
   cursor: pointer;
   
