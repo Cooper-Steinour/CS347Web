@@ -3,7 +3,7 @@ session_start();
 // Change this to your connection info.
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'root';
-$DATABASE_PASS = '';
+$DATABASE_PASS = 'insert_password';
 $DATABASE_NAME = 'phplogin';
 // Try and connect using the info above.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
@@ -32,6 +32,7 @@ if ($stmt->num_rows > 0) {
 	// Account exists, now we verify the password.
 	// Note: remember to use password_hash in your registration file to store the hashed passwords.
 	if (password_verify($_POST['password'], $password)) {
+	  // if ($_POST['password'] == $password) {
 		// Verification success! User has logged-in!
 		// Create sessions, so we know the user is logged in, they basically act like cookies but remember the data on the server.
 		session_regenerate_id();

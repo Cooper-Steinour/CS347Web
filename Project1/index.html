@@ -59,8 +59,10 @@
 		</div>
 
         <br />
+		<!-- This part is a form for the user to log in. -->
+		<!-- The form will only take you to the PHP page is all fields are completed and the password requirements are met. -->
         <h2>Log in to become a recognized fan of Aaron!</h2>
-        <form name = "myForm" action="confirmation.php" method="post" onsubmit="return validatePassword()">
+        <form name = "myForm" action="project1_home.php" method="post" onsubmit="return validatePassword()">
           <label for="usernameid">Username</label><br />
           <input type="text" id="usernameid" name="usernameid" required><br />
           <label for="emailid">Email</label><br />
@@ -97,6 +99,7 @@
     </div>
   </body>
   <script src="js/script.js"></script>
+  <!-- This part is for collapsing and expanding the menu -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script>
       $(document).ready(function(){
