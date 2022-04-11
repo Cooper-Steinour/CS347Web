@@ -2,6 +2,12 @@
 body {
   background-image: url(https://theboysareback.files.wordpress.com/2013/10/cowboys-stadium-2012-nbc-sunday-night-football-the-boys-are-back-blog.jpg);
   background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 /*This is for the only header*/
@@ -19,15 +25,24 @@ img {
 
 /*This is to make the header more noticable*/
 h6 {
-  background-color: green;
+  color: white;
 }
 
 /*This is to make the return button big and noticable*/
 .returnbutton {
-  background-color: yellow;
-  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
   cursor: pointer;
+  background-color: #4caf50; /* Green */
+  border: 1px solid black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
 }

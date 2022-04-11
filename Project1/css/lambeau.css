@@ -1,12 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+}
+
 /*These are the properties for the 4 columns*/
 .column1 {
   float: right;
   width: 25%;
   padding: 0px;
-  height: 100%;
   text-align: center;
   text-decoration: none;
-  margin-top: 10%;
+  background-color: lightgreen;
 }
 
 .column-medium {
@@ -66,10 +75,28 @@ a {
   color: inherit;
 }
 
-body {
-  background-color: lightgreen;
+button {
+  min-width: 80%;
+  max-width: 80%;
+  background-color: #4caf50; /* Green */
+  border: 1px solid black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
 }
 
-button {
-  cursor: pointer;
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .column1 {
+    width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }
 }

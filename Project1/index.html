@@ -11,68 +11,83 @@
       <!-- Left Container -->
       <div class="left">
         <!--- This intro column contains an intro, a menu, and some text boxes for the user to input -->
-		<h1 id="time_greeting"></h1>
+        <h1 id="time_greeting">f</h1>
         <h4>By Alex Tran and Cooper Steinour</h4>
         <p>
-          This FULL STACK website is for fans of Aaron Rodgers as well as folks with 0
-          prior knowledge about Football or Aaron :)
+          This FULL STACK website is for fans of Aaron Rodgers as well as folks
+          with 0 prior knowledge about Football or Aaron :)
         </p>
 
         <h2>Menu</h2>
-	
-		<button id="slide">Collapse/Expand Menu</button>
-		<br>
-		
-		<div id = "menudiv">
 
-        <button id = "menu"
-          onclick="location.href='https://en.wikipedia.org/wiki/Aaron_Rodgers'"
-          type="button"
-        >
-          Click here to learn more about Aaron on Wiki
-        </button>
+        <button id="slide">Collapse/Expand Menu</button>
         <br />
-		<br />
-        <button onclick="location.href='index.html'" type="button">
-          Click for Main Page: Rodgers's intro
-        </button>
-        <br />
-		<br />
-        <button id = "menu" onclick="location.href='page2.html'" type="button">
-          Aaron's General Stats
-        </button>
-        <br />
-		<br />
-        <button id = "menu" onclick="location.href='lambeau.html'" type="button">
-          Why Aaron should stay in Lambeau
-        </button>
-        <br />
-		<br />
-        <button id = "menu" onclick="location.href='breakup.html'" type="button">
-          Aaron's recent breakup. Please send love :(
-        </button>
-        <br />
-		<br />
-        <button id = "menu" onclick="location.href='thankyou.html'" type="button">
-          We thank YOU for visiting our site and supporting Aaron :D
-        </button>
-		</div>
+
+        <div id="menudiv">
+          <button
+            id="menu"
+            onclick="location.href='https://en.wikipedia.org/wiki/Aaron_Rodgers'"
+            type="button"
+          >
+            Click here to learn more about Aaron on Wiki
+          </button>
+          <br />
+          <br />
+          <button onclick="location.href='index.html'" type="button">
+            Click for Main Page: Rodgers's intro
+          </button>
+          <br />
+          <br />
+          <button id="menu" onclick="location.href='page2.html'" type="button">
+            Aaron's General Stats
+          </button>
+          <br />
+          <br />
+          <button
+            id="menu"
+            onclick="location.href='lambeau.html'"
+            type="button"
+          >
+            Why Aaron should stay in Lambeau
+          </button>
+          <br />
+          <br />
+          <button
+            id="menu"
+            onclick="location.href='breakup.html'"
+            type="button"
+          >
+            Aaron's recent breakup. Please send love :(
+          </button>
+          <br />
+          <br />
+          <button
+            id="menu"
+            onclick="location.href='thankyou.html'"
+            type="button"
+          >
+            We thank YOU for visiting our site and supporting Aaron :D
+          </button>
+        </div>
 
         <br />
-		<!-- This part is a form for the user to log in. -->
-		<!-- The form will only take you to the PHP page is all fields are completed and the password requirements are met. -->
+        <!-- This part is a form for the user to log in. -->
+        <!-- The form will only take you to the PHP page is all fields are completed and the password requirements are met. -->
         <h2>Log in to become a recognized fan of Aaron!</h2>
-        <form name = "myForm" action="project1_home.php" method="post" onsubmit="return validatePassword()">
+        <form
+          name="myForm"
+          action="project1_home.php"
+          method="post"
+          onsubmit="validatePassword()"
+        >
           <label for="usernameid">Username</label><br />
-          <input type="text" id="usernameid" name="usernameid" required><br />
+          <input type="text" id="usernameid" name="usernameid" required /><br />
           <label for="emailid">Email</label><br />
-          <input type="text" id="emailid" name="emailid" required><br />
+          <input type="text" id="emailid" name="emailid" required /><br />
           <label for="passid">Password</label><br />
-          <input type="text" id="pass" name="pass" required><br /><br />
-		  
-          <input
-            type="submit"
-          />
+          <input type="text" id="pass" name="pass" required /><br /><br />
+
+          <input type="submit" />
         </form>
       </div>
       <!-- Right Container -->
@@ -97,16 +112,16 @@
         /></a>
       </div>
     </div>
-  </body>
-  <script src="js/script.js"></script>
-  <!-- This part is for collapsing and expanding the menu -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script>
-      $(document).ready(function(){
-	    $("#menudiv").hide();
-        $("#slide").click(function(){
-        $("#menudiv").slideToggle();
+    <script src="js/script.js"></script>
+    <!-- This part is for collapsing and expanding the menu -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#menudiv").hide();
+        $("#slide").click(function () {
+          $("#menudiv").slideToggle();
         });
       });
-  </script>
+    </script>
+  </body>
 </html>

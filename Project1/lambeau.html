@@ -9,6 +9,51 @@
     <!-- Page Header-->
     <h1>Rodgers and Lambeau have too much History</h1>
     <div class="row">
+      <!-- This column is the menu that is used for navigating around the website with a funny GIF :) -->
+      <div class="column1">
+        <h2>Menu</h2>
+        <button
+          onclick="location.href='https://en.wikipedia.org/wiki/Aaron_Rodgers'"
+          type="button"
+        >
+          Click here to learn more about Aaron on Wiki
+        </button>
+        <br />
+        <br />
+        <button onclick="location.href='index.html'" type="button">
+          Click for Main Page: Rodgers's intro
+        </button>
+        <br />
+        <br />
+        <button onclick="location.href='page2.html'" type="button">
+          Aaron's General Stats
+        </button>
+        <br />
+        <br />
+        <button onclick="location.href='lambeau.html'" type="button">
+          Why Aaron should stay in Lambeau
+        </button>
+        <br />
+        <br />
+        <button onclick="location.href='breakup.html'" type="button">
+          Aaron's recent breakup. Please send love :(
+        </button>
+        <br />
+        <br />
+        <button onclick="location.href='thankyou.html'" type="button">
+          We thank YOU for visiting our site and supporting Aaron :D
+        </button>
+        <br />
+        <br />
+        <button>Click to fade in/out Aaron GIF!!!</button><br /><br />
+
+        <a href="https://c.tenor.com/hujoAcoBoPQAAAAj/sports-sportsmanias.gif"
+          ><img
+            id="toggletest"
+            src="images/transparentaaron.gif"
+            alt="Aaron cartoon gif"
+        /></a>
+      </div>
       <!-- This column will hold all of the page's unique content-->
       <div class="column2">
         <h1>Lambeau Field</h1>
@@ -69,58 +114,14 @@
           people that mean the most to him.
         </h3>
       </div>
-
-      <!-- This column is the menu that is used for navigating around the website with a funny GIF :) -->
-      <div class="column1">
-        <h2>Menu</h2>
-        <button
-          onclick="location.href='https://en.wikipedia.org/wiki/Aaron_Rodgers'"
-          type="button"
-        >
-          Click here to learn more about Aaron on Wiki
-        </button>
-        <br />
-        <br />
-        <button onclick="location.href='index.html'" type="button">
-          Click for Main Page: Rodgers's intro
-        </button>
-        <br />
-        <br />
-        <button onclick="location.href='page2.html'" type="button">
-          Aaron's General Stats
-        </button>
-        <br />
-        <br />
-        <button onclick="location.href='lambeau.html'" type="button">
-          Why Aaron should stay in Lambeau
-        </button>
-        <br />
-        <br />
-        <button onclick="location.href='breakup.html'" type="button">
-          Aaron's recent breakup. Please send love :(
-        </button>
-        <br />
-        <br />
-        <button onclick="location.href='thankyou.html'" type="button">
-          We thank YOU for visiting our site and supporting Aaron :D
-        </button>
-        <br />
-        <br />
-		<button>Click to fade in/out Aaron GIF!!!</button><br><br>
-
-        <a href="https://c.tenor.com/hujoAcoBoPQAAAAj/sports-sportsmanias.gif"
-          ><img id ="toggletest" src="images/transparentaaron.gif" alt="Aaron cartoon gif"
-        /></a>
-      </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("#toggletest").fadeToggle();
+        });
+      });
+    </script>
   </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script>
-   $(document).ready(function(){
-     $("button").click(function(){
-       $("#toggletest").fadeToggle();
-     });
-   });
-  </script>
-
 </html>

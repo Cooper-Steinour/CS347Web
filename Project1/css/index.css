@@ -1,7 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Page as a whole */
 .container {
   display: flex;
   min-height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 /* Right Styling */
@@ -10,7 +22,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #3d6d5f;
+  background-color: #4caf50;
   width: 100%;
 }
 
@@ -27,17 +39,25 @@
   text-align: center;
 }
 
+button {
+  min-width: 80%;
+  max-width: 80%;
+  background-color: #4caf50; /* Green */
+  border: 1px solid black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+}
+
 /* Changes opacity of images when you hover over them*/
 img:hover {
   opacity: 0.5;
 }
 
 img {
-	display: flex;
-}
-
-button {
-  cursor: pointer;
-  
-  width: 100%;
+  min-width: 100%;
 }

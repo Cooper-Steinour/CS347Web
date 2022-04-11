@@ -1,12 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+}
+
 /*These are the properties for the 4 columns*/
 .column1 {
   float: right;
-  width: 25%;
+  flex: 2;
   padding: 0px;
-  height: 100vh;
+  min-height: 100%;
   text-align: center;
   text-decoration: none;
-  margin-top: 10%;
+  background-color: yellow;
 }
 
 .column-medium {
@@ -18,7 +28,7 @@
 }
 .column2 {
   float: right;
-  width: 75%;
+  flex: 6;
   padding: 0px;
   height: 100%;
   text-align: center;
@@ -47,9 +57,24 @@ h1 {
   font-family: verdana;
 }
 button {
+  min-width: 80%;
+  max-width: 80%;
+  background-color: #4caf50; /* Green */
+  border: 1px solid black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
   cursor: pointer;
 }
 
-body {
-  background-color: yellow;
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .img-large {
+    width: 40%;
+  }
 }
