@@ -39,7 +39,8 @@ body {
   text-align: center;
 }
 
-button {
+button,
+.btn {
   min-width: 80%;
   max-width: 80%;
   background-color: #4caf50; /* Green */
